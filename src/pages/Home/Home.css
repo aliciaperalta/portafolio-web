@@ -1,0 +1,27 @@
+.titulo {
+  font-size: 30px;
+  padding: 10px 0px;
+  color: darkgrey;
+  font-weight: bold;
+  text-shadow: 3px 2px rgb(92, 74, 74);
+}
+.titulo2 {
+  font-size: 30px;
+  padding: 10px 0px;
+  color: cadetblue;
+  font-weight: bold;
+  text-shadow: 3px 2px darkcyan;
+}
+
+.anim {
+  animation: anim 3s infinite linear;
+}
+
+@keyframes anim {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(30px);
+  }
+}

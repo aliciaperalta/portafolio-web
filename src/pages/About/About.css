@@ -1,0 +1,52 @@
+.bloque {
+  display: block;
+}
+.color {
+  font-weight: bold;
+}
+
+.animacion {
+  min-height: 200px;
+  padding: 20px;
+  animation: rotation 10s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+ul {
+  list-style: none;
+  padding: 20px;
+}
+
+li {
+  display: inline;
+  margin: 10px;
+}
+
+li i {
+  font-size: 50px;
+  color: rgb(230, 230, 230);
+}
+
+li i:hover {
+  color: black;
+}
+
+.style {
+  padding-left: 20px;
+}
+
+.titulo {
+  font-size: 30px;
+  padding: 10px 0px;
+  color: darkgrey;
+  font-weight: bold;
+  text-shadow: 3px 2px black;
+}
